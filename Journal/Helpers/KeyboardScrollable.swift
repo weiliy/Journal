@@ -9,7 +9,7 @@
 import UIKit
 
 @objc protocol KeyboardScrollable {
-    
+
     var scrollView: UIScrollView? { get }
     @objc func keyboardDidShow(_ notification: Notification)
     @objc func keyboardWillHide(_ notification: Notification)

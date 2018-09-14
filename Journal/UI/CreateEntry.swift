@@ -9,12 +9,12 @@
 import UIKit
 
 class CreateEntry: UIViewController {
-    
+
     @IBOutlet weak var titleTextField: UITextField!
     @IBOutlet weak var bodyTextView: UITextView!
     @IBOutlet weak var addTagButton: UIButton!
     @IBOutlet weak var scrollView: UIScrollView!
-    
+
     override func viewDidLoad() {
         super .viewDidLoad()
         
@@ -77,6 +77,6 @@ extension CreateEntry: KeyboardScrollable {
     }
     
     func keyboardWillHide(_ notification: Notification) {
-        keyboardWillHide(notification)
+        keyboardWillBeHidden(notification)
     }
 }
