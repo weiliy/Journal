@@ -16,6 +16,8 @@
 		133E65E1213D4F7F009736C0 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133E65E0213D4F7F009736C0 /* ColorView.swift */; };
 		133E65E4213D5B7E009736C0 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133E65E3213D5B7E009736C0 /* Entry.swift */; };
 		133E65E6213D5C85009736C0 /* EntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133E65E5213D5C85009736C0 /* EntryController.swift */; };
+		1363BE08214BD7750032A02C /* EntryList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1363BE07214BD7750032A02C /* EntryList.storyboard */; };
+		1363BE0A214BD9710032A02C /* EntryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1363BE09214BD9710032A02C /* EntryList.swift */; };
 		13CAC71D2146A20400411AB2 /* KeyboardScrollable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CAC71C2146A20400411AB2 /* KeyboardScrollable.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +33,8 @@
 		133E65E0213D4F7F009736C0 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
 		133E65E3213D5B7E009736C0 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 		133E65E5213D5C85009736C0 /* EntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryController.swift; sourceTree = "<group>"; };
+		1363BE07214BD7750032A02C /* EntryList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EntryList.storyboard; sourceTree = "<group>"; };
+		1363BE09214BD9710032A02C /* EntryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryList.swift; sourceTree = "<group>"; };
 		13CAC71C2146A20400411AB2 /* KeyboardScrollable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardScrollable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +91,8 @@
 			isa = PBXGroup;
 			children = (
 				133E65CC213BE697009736C0 /* Main.storyboard */,
+				1363BE07214BD7750032A02C /* EntryList.storyboard */,
+				1363BE09214BD9710032A02C /* EntryList.swift */,
 				133E65DC213BEA6B009736C0 /* CreateEntry.storyboard */,
 				133E65DE213D4F03009736C0 /* CreateEntry.swift */,
 				133E65E0213D4F7F009736C0 /* ColorView.swift */,
@@ -171,6 +177,7 @@
 			files = (
 				133E65D3213BE699009736C0 /* LaunchScreen.storyboard in Resources */,
 				133E65D0213BE699009736C0 /* Assets.xcassets in Resources */,
+				1363BE08214BD7750032A02C /* EntryList.storyboard in Resources */,
 				133E65CE213BE697009736C0 /* Main.storyboard in Resources */,
 				133E65DD213BEA6B009736C0 /* CreateEntry.storyboard in Resources */,
 			);
@@ -186,6 +193,7 @@
 				133E65E4213D5B7E009736C0 /* Entry.swift in Sources */,
 				13CAC71D2146A20400411AB2 /* KeyboardScrollable.swift in Sources */,
 				133E65E1213D4F7F009736C0 /* ColorView.swift in Sources */,
+				1363BE0A214BD9710032A02C /* EntryList.swift in Sources */,
 				133E65E6213D5C85009736C0 /* EntryController.swift in Sources */,
 				133E65DF213D4F03009736C0 /* CreateEntry.swift in Sources */,
 				133E65C9213BE697009736C0 /* AppDelegate.swift in Sources */,
