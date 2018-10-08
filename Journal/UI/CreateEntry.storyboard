@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="s9t-Ii-wsJ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZvT-Aq-5le">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -101,7 +101,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="mIh-5s-5Kp"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Create an Entry" id="YLH-aU-dYc"/>
+                    <navigationItem key="navigationItem" title="Create an Entry" id="YLH-aU-dYc">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="o8s-sP-aAo"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="addTagButton" destination="awv-Yo-d5k" id="5B3-ni-XVl"/>
                         <outlet property="bodyTextView" destination="LXH-H6-8jd" id="SDj-fV-kd0"/>

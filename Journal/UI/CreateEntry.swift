@@ -15,8 +15,12 @@ class CreateEntry: UIViewController {
     @IBOutlet weak var addTagButton: UIButton!
     @IBOutlet weak var scrollView: UIScrollView!
 
+    var entry: Entry?
+    
     override func viewDidLoad() {
         super .viewDidLoad()
+        
+        print(entry)
         
         registerForKeyboardNotifications()
     }
@@ -26,6 +30,7 @@ class CreateEntry: UIViewController {
     }
     
     @IBAction func save() {
+        navigationController?.popViewController(animated: true)
         guard let title = titleTextField.text, !title.isEmpty, let body = bodyTextView.text, !body.isEmpty else { return }
         
         titleTextField.text = ""
@@ -39,6 +44,10 @@ class CreateEntry: UIViewController {
         
         EntryController.shared.createEntry(withTitle: title, body: body, tag: tag, color: .lightGray)
         resignResponders()
+    }
+    
+    @IBAction func dismiss() {
+        dismiss(animated: true, completion: nil)
     }
     
     func resignResponders() {
